@@ -37,3 +37,13 @@ body {
   height: 135px;
   background: #1c120e;
 }
+
+.hair:before,
+.hair:after {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  border-radius: 50%;
+}
