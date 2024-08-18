@@ -28,4 +28,12 @@ body {
   background: #3a483a;
   border-radius: 50%;
   top: 10%;
+  overflow: hidden
+}
+
+.hair {
+  position: absolute;
+  width: 450px;
+  height: 135px;
+  background: #1c120e;
 }
