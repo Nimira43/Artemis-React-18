@@ -46,4 +46,6 @@ body {
   height: 250px;
   background-color: green;
   border-radius: 50%;
+  top: 50%;
+  
 }
