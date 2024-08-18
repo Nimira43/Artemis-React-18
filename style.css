@@ -47,5 +47,12 @@ body {
   background-color: green;
   border-radius: 50%;
   top: 50%;
-  
+}
+
+.hair:before {
+  left: 1%;
+}
+
+.hair:after {
+  right: 1%;
 }
