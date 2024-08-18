@@ -25,7 +25,7 @@ body {
   position: absolute;
   width: 450px;
   height: 450px;
-  background: lightgreen;
+  background: #3a483a;
   border-radius: 50%;
   top: 10%;
 }
