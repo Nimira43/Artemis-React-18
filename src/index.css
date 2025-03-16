@@ -9,8 +9,7 @@
 }
 
 :root {
-  --primary: #006400;
-  --light: #fffcfa;
+  --primary: #ff4500;
   --dark: #111;
   --black: #000;
 }
@@ -32,6 +31,7 @@ body {
   border: 0.25rem solid var(--black);
   border-radius: 1rem;
   font-size: 2.5rem;
+  text-align: center;
   padding: 1rem 2rem;
   letter-spacing: 0.1rem;
   margin: 2rem 0;
@@ -41,6 +41,14 @@ body {
   animation:
     shimmer 2s infinite ease-in-out,
     flicker 1.5s infinite;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--primary);
+  text-align: center;
 }
 
 @keyframes shimmer {
